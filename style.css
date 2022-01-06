@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap');
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0px 80px 0px 0px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+li {
+    display: inline;
+    padding: 8px;
+    line-height: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    background-color: #1F2935;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar a:hover {
+    color: #2882fe;
+}
+
+#logo {
+    margin: auto;
+    padding-left: 80px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+main {
+    background-color: #1F2935;
+    width: 70%;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#random-info {
+    background-color: white;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.hero-main-text {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight:900;
+    color: #f9faf8;
+    margin: auto;
+}
+
+.hero-secondary {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: light;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+#hero-left {
+    width: 50%;
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+#hero-right {
+    width: 50%;
+}
+
+.sign-up-button {
+    background-color: #2882fe;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 24px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.sign-up-button:hover {
+    background-color: #1953a4 ;
+}
+
+.placeholder-img {
+    width:430px;
+    height:228px;
+}
+
+h2 {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin: auto;
+    height: 32px;
+}
+
+#cards {
+    width: 70%;
+    height: 300px;
+    margin: auto; 
+    display: flex;
+    justify-content:center;
+}
+
+
+.single-card {
+    width: 150px;
+    height: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+    /* align-items: center; */
+}
+
+.card-photo {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(227, 227, 227);
+    border-radius: 12px;
+    border-color: #2882fe;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.card-text {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: auto;
+    height: 32px;
+    color: rgb(65, 65, 65);
+    text-align: center;
+}
+
+#quote {
+    width: 70%;
+    height: 100%;
+    background-color: #e5e7eb;
+    margin: auto; 
+    display: flex;
+    justify-content:center;
+}
+
+.quote-container {
+    width: 70%;
+}
+
+.quote-text {
+    width: 80%;
+    text-align: left;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    margin: auto; 
+    padding-top: 60px;
+    padding-bottom: 6px;
+}
+
+.quote-author {
+    width: 65%;
+    margin: auto;
+    text-align: right;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 60px;
+}
+
+#cta {
+    width: 70%;
+    height: 100%;
+    margin: auto; 
+    display: flex;
+    justify-content:center;
+}
+
+.cta-container {
+    width: 70%;
+    background-color: #2882fe;
+    border-radius: 12px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+
+
+.cta-txt {
+    margin: auto;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    color: white;
+    padding-top: 32px;
+}
+
+.cta-txt2 {
+    margin: auto;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(227, 227, 227);
+    padding-bottom: 32px;
+}
+
+.cta-button-div {
+    width: 20%;
+}
+
+
+.cta-button {
+    background-color: #2882fe;
+    border-style: solid;
+    border-color: white;
+    border-radius: 12px;
+    padding: 6px 30px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+
+#footer {
+    width: 70%;
+    height: 100%;
+    margin: auto; 
+    display: flex;
+    justify-content:center;
+    background-color: #1F2935;
+}
+
+.copyright {
+    color: rgb(223, 223, 223);
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
